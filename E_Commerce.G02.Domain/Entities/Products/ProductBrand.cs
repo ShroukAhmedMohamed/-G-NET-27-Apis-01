@@ -1,0 +1,16 @@
+﻿using E_Commerce.G02.Domain.Common;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace E_Commerce.G02.Domain.Entities.Products
+{
+    public class productBrand : BaseEntity<int>
+    {
+
+        public string Name { get; set; } = default!;
+
+    }
+}
